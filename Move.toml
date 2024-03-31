@@ -1,0 +1,17 @@
+[package]
+name = "library"
+version = "0.0.1
+license = "Academic Free License v3.0"
+authors = ["James Atomc (co-founder@kanari.network)"]
+
+[dependencies]
+MoveStdlib = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/move-stdlib", rev = "framework/testnet" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+
+[addresses]
+library = "0x0"
+std = "0x1"
+sui =  "0x2"
+
+
